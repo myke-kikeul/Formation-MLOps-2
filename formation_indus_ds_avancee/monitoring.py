@@ -33,5 +33,6 @@ def monitor(latest_predictions: pd.DataFrame) -> pd.DataFrame:
             "predictions_time": "Datetime",
             "predictions": "Mean_predictions"
         })
+    )
     # End filling function
     return monitoring_df
